@@ -18,7 +18,7 @@ public class bt2 {
         }
         if (n>1){
             System.out.println("Day fibonaci:\n1\n1");
-            int a=1,b=0,c=0;
+            int a=1,b=1,c=0;
 
             for (int i =2;i<n; i++){
                 c=a;
