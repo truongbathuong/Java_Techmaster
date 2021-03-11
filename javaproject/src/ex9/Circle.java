@@ -3,23 +3,32 @@ package ex9;
 public class Circle extends Geometry implements Diameter{
     private double r;
     
+    
     public Circle(double r) {
+        this.r = r;
+    }
+
+    public double getR() {
+        return r;
+    }
+
+    public void setR(double r) {
         this.r = r;
     }
 
     @Override
     public double getPerimeter(){
-        return r*2*3.14;
+        return getR()*2*3.14;
     }
 
     @Override
     public double getArea(){
-        return r*r*3.14;
+        return getR()*getR()*3.14;
     }
     
     @Override
     public double getDiameter(){
-        return r*2;
+        return getR()*2;
     }
 
     public void output(){
