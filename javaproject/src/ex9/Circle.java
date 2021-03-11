@@ -1,7 +1,7 @@
 package ex9;
 
 public class Circle extends Geometry implements Diameter{
-    public double r;
+    private double r;
     
     public Circle(double r) {
         this.r = r;

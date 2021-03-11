@@ -1,8 +1,8 @@
 package ex9;
 
 public class Rectangle extends Geometry implements Diagonal  {
-    public double length;
-    public double width;
+    private double length;
+    private double width;
 
     public Rectangle(double length, double width) {
         this.length = length;
